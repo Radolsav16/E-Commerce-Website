@@ -1,0 +1,32 @@
+{
+    "products": {
+        "db352199-bcbc-4e1d-a1dc-ed346a7fb49a": {
+            "_id": "fb352199-bcbc-4e1d-a1dc-ed346a6fb43a",
+            "name": "Adidas Football Ball",
+            "price": 45,
+            "imageURL": "https://th.bing.com/th/id/OIP.v1Ze5J8cUtJlvFRHYkqPwwHaHa?rs=1&pid=ImgDetMain",
+            "description":"Best football ball for childs"
+        },
+        "db462199-bcbc-4e1d-a1dc-ed346a7fb49a": {
+            "_id": "db462199-bcbc-4e1d-a1dc-ed346a7fb49a",
+            "name": "Man T-shirt",
+            "price": 35,
+            "imageURL": "https://i5.walmartimages.com/asr/06d82fe5-1c2d-4b82-84b3-f19a987fdaff_1.994599613e74ba44d0ba5b2f601a32f2.jpeg",
+            "description":"Good looking yellow t-shirt."
+        },
+        "db352192-bcbc-4e1d-a1dc-ed346a7fb49a": {
+            "_id": "db352192-bcbc-4e1d-a1dc-ed346a7fb49a",
+            "name": "Woman Skirt",
+            "price": 55,
+            "imageURL": "https://th.bing.com/th/id/OIP.XWj4MxK1IRLcBmi8m4oj9QAAAA?rs=1&pid=ImgDetMain",
+            "description":"Best skirt on the market"
+        },
+        "db352149-bdbg-4e1d-a1dc-ed346a7fb49a": {
+            "_id": "fb352199-bcbc-4e1d-a1dc-ed346a6fb43a",
+            "name": "Woman Sport Shoes",
+            "price": 45,
+            "imageURL": "https://www.tennisnuts.com/images/product/full/D66239_F_beauty_B2C.jpg",
+            "description":"Best shoes for being in shape"
+        }
+    }
+}
