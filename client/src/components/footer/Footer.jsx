@@ -17,7 +17,7 @@ export default function Footer(){
         </h2>
         <ul className="list-unstyled text-light footer-link-list">
           <li>
-            <Link className="text-decoration-none" to="/luxury">
+            <Link className="text-decoration-none" to="/">
               Home
             </Link>
           </li>
@@ -49,27 +49,27 @@ export default function Footer(){
         </h2>
         <ul className="list-unstyled text-light footer-link-list">
           <li>
-            <a className="text-decoration-none" href="#">
-              Home
-            </a>
-          </li>
-          <li>
-            <a className="text-decoration-none" href="#">
-              About
-            </a>
-          </li>
-          <li>
-            <a className="text-decoration-none" href="#">
-              Shop
-            </a>
-          </li>
-          <li>
             <Link className="text-decoration-none" to="/">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link className="text-decoration-none" to="/about">
+              About
+            </Link>
+          </li>
+          <li>
+            <Link className="text-decoration-none" to="/shop">
+              Shop
+            </Link>
+          </li>
+          <li>
+            <Link className="text-decoration-none" to="/login">
               Login
             </Link>
           </li>
           <li>
-            <Link className="text-decoration-none" to="/">
+            <Link className="text-decoration-none" to="/register">
               Regsiter
             </Link>
           </li>
