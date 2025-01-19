@@ -22,10 +22,13 @@ Analog, digital, and smartwatches
 Luxurious and affordable options
 Unisex and gender-specific designs
 # 🔧 Toolbox
-Frontend: React,HTML and CSS template
-Backend: Node.js, Express.js
-Database: MongoDB
-Hosting: Firebase
+-[x] React
+-[x] HTML and CSS
+-[x] Node.js
+-[x] Express.js
+-[x] MongoDB
+-[x] Firebase Hosting
+
 # Access the Website: Open your browser and navigate to http://localhost:3000.
 
 
