@@ -2,7 +2,7 @@
 ## E-Commerce Website for Clothes, Accessories, and Watches
 Welcome to our E-Commerce platform, your one-stop shop for trendy clothes, stylish accessories, and elegant watches. Our platform offers a seamless and enjoyable shopping experience, with a focus on high-quality products and excellent customer service.
 
-##🌟 Features
+## 🌟 Features
 User-Friendly Interface: Easy-to-navigate design for a smooth shopping experience.
 Wide Product Range: A diverse collection of clothing, accessories, and watches for all styles and occasions.
 Advanced Search and Filters: Quickly find the products you love using categories, price ranges, and more.
@@ -22,12 +22,12 @@ Analog, digital, and smartwatches
 Luxurious and affordable options
 Unisex and gender-specific designs
 # 🔧 Toolbox
--[x] React
--[x] HTML and CSS
--[x] Node.js
--[x] Express.js
--[x] MongoDB
--[x] Firebase Hosting
+- [x] React
+- [x] HTML and CSS
+- [x] Node.js
+- [x] Express.js
+- [x] MongoDB
+- [x] Firebase Hosting
 
 # Access the Website: Open your browser and navigate to http://localhost:3000.
 
