@@ -1,6 +1,22 @@
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { localStorageApi } from "../../service/localStorage";
+import logout from "../../service/logout";
 
 export default function Nav(){
+
+  const [user,setUser] = useState(null);
+
+    useEffect(()=>{
+      (()=>{
+       const email =  localStorageApi.getEmail();
+       
+       if(email){
+        setUser(email);
+       }
+      })()
+    },[]);
+
     return(
         <>
         <nav className="navbar navbar-expand-lg navbar-light shadow">
@@ -43,16 +59,29 @@ export default function Nav(){
               Shop
             </Link>
           </li>
+          {user ? 
+          <>
+          <li className="nav-link">Welcome {user} !</li>
+          <li className="nav-item">
+            <Link to="/logout" className="nav-link">Logout</Link>
+            </li>
+          </>
+          :  
+          <>
           <li className="nav-item">
             <Link className="nav-link" to="/login">
               Login
             </Link>
           </li>
+
           <li className="nav-item">
             <Link className="nav-link" to="/register">
               Register
             </Link>
           </li>
+          </>
+          }
+        
         </ul>
       </div>
         <Link className="nav-icon position-relative text-decoration-none" to="/cart">
