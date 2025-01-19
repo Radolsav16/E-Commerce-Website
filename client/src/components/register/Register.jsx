@@ -1,0 +1,79 @@
+import { Link } from "react-router-dom";
+
+export default function Register(){
+    return(
+         <>
+    <section className="text-center">
+    <div
+      className="p-5 bg-image"
+      style={{
+        backgroundImage:
+          'url("https://mdbootstrap.com/img/new/textures/full/171.jpg")',
+        height: 300
+      }}
+    />
+    {/* Background image */}
+    <div
+      className="card mx-4 mx-md-5 shadow-5-strong bg-body-tertiary"
+      style={{ marginTop: "-100px", backdropFilter: "blur(30px)" }}
+    >
+      <div className="card-body py-5 px-md-5">
+        <div className="row d-flex justify-content-center">
+          <div className="col-lg-8">
+            <h2 className="fw-bold mb-5">Sign up now</h2>
+            <form>
+              
+              {/* Email input */}
+              <div data-mdb-input-init="" className="form-outline mb-4">
+                <input
+                  type="email"
+                  id="form3Example3"
+                  className="form-control"
+                />
+                <label className="form-label" htmlFor="form3Example3">
+                  Email address
+                </label>
+              </div>
+              {/* Password input */}
+              <div data-mdb-input-init="" className="form-outline mb-4">
+                <input
+                  type="password"
+                  id="form3Example4"
+                  className="form-control"
+                />
+                <label className="form-label" htmlFor="form3Example4">
+                  Password
+                </label>
+              </div>
+
+              <div data-mdb-input-init="" className="form-outline mb-4">
+                <input
+                  type="password"
+                  id="form3Example4"
+                  className="form-control"
+                />
+                <label className="form-label" htmlFor="form3Example4">
+                  Repeat Password
+                </label>
+              </div>
+              <button
+                type="submit"
+                data-mdb-button-init=""
+                data-mdb-ripple-init=""
+                className="btn btn-primary btn-block mb-4"
+              >
+                Sign up
+              </button>
+
+
+            <Link to="/login">Already has account?</Link>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</>
+    )
+}
