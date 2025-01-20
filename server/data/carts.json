@@ -1,0 +1,22 @@
+[
+    {
+    "userId": "35c62d76-8152-4626-8712-eeb96381bea8",
+    "items": [
+        {
+            "productId": "prod001",
+            "name": "Product Name 1",
+            "price": 99.99,
+            "quantity": 2,
+            "image": "product-image1.jpg"
+        },
+        {
+            "productId": "prod002",
+            "name": "Product Name 2",
+            "price": 89.99,
+            "quantity": 1,
+            "image": "product-image2.jpg"
+        }
+    ],
+    "totalAmount": 289.97
+    }
+]
