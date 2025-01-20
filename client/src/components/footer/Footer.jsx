@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
+import { localStorageApi } from "../../service/localStorage";
 
 export default function Footer(){
+  const isUser = localStorageApi.getUserId();
+
     return(
         <>
     <footer className="bg-dark" id="tempaltemo_footer">
@@ -63,6 +66,8 @@ export default function Footer(){
               Shop
             </Link>
           </li>
+
+          {!isUser ? <>
           <li>
             <Link className="text-decoration-none" to="/login">
               Login
@@ -72,7 +77,8 @@ export default function Footer(){
             <Link className="text-decoration-none" to="/register">
               Regsiter
             </Link>
-          </li>
+          </li></>:""}
+        
         </ul>
       </div>
     </div>
