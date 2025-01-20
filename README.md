@@ -26,5 +26,5 @@ Tables,Lamps,Sofas and other.
 
 # Email: todorovradoslav18@gmail.
 
-# Happy Shopping! 😊
+
 
