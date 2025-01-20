@@ -22,7 +22,7 @@ export default function Login(){
             
         const user = await requsterApi.post(url,formData);
 
-        localStorageApi.setData(user.email,user.accessToken);
+        localStorageApi.setData(user.email,user.accessToken,user._id);
 
         navigate('/')
 
