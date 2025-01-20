@@ -21,9 +21,6 @@ Tables,Lamps,Sofas and other.
 - [x] React
 - [x] HTML and CSS
 - [x] Softuni Practise Server
-- [x] Firebase Hosting
-
-# Access the Website: Open your browser and navigate to http://localhost:3000.
 
 
 
