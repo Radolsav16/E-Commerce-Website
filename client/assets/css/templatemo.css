@@ -167,6 +167,8 @@ body, ul, li, p, a, label, input, div {
   height: 6px;
 }
 
+.product-image { width: 300px; height: 400px; /* Set the desired height */  /* Ensure the image covers the area */ }
+
 @media (min-width: 576px) {
   .tempaltemo-carousel .h1 { font-size: 1em !important;}
 }

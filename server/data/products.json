@@ -1,7 +1,7 @@
 {
-    "products": {
-        "db352199-bcbc-4e1d-a1dc-ed346a7fb49a": {
-            "_id": "fb352199-bcbc-4e1d-a1dc-ed346a6fb43a",
+        
+            "fb352199-bcbc-4e1b-a1dc-ed346a6fb43a": {
+            "_id": "fb352199-bcbc-4e1b-a1dc-ed346a6fb43a",
             "name": "Adidas Football Ball",
             "price": 45,
             "imageURL": "https://th.bing.com/th/id/OIP.v1Ze5J8cUtJlvFRHYkqPwwHaHa?rs=1&pid=ImgDetMain",
@@ -21,12 +21,11 @@
             "imageURL": "https://th.bing.com/th/id/OIP.XWj4MxK1IRLcBmi8m4oj9QAAAA?rs=1&pid=ImgDetMain",
             "description":"Best skirt on the market"
         },
-        "db352149-bdbg-4e1d-a1dc-ed346a7fb49a": {
+        "fb352199-bcbc-4e1d-a1dc-ed346a6fb43a": {
             "_id": "fb352199-bcbc-4e1d-a1dc-ed346a6fb43a",
             "name": "Woman Sport Shoes",
             "price": 45,
             "imageURL": "https://www.tennisnuts.com/images/product/full/D66239_F_beauty_B2C.jpg",
             "description":"Best shoes for being in shape"
         }
-    }
 }

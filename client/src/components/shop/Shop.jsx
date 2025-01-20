@@ -1,29 +1,34 @@
 import { useEffect, useState } from "react";
 import Product from "./product/Product";
-import { requsterApi } from "../../service/requster";
+import { requsterApi } from "../../service/requster.js";
 
 
 export default function Shop(){
-    const [data,setData] = useState({});
+    const [items,setItems] = useState([]);
 
     useEffect(()=>{
         const url = 'http://localhost:3030/jsonstore/products';
         (async () => {
             try{
             const result = await requsterApi.get(url)
-            setData(Object.values(result.products));
+            setItems(Object.values(result))
             }catch(err){
                 console.log(err);
             }
         })()
     },[])
 
+  
+
+
+    
+    
 
     return(
         <>
              <div className="container mt-5">
              <div className="row">
-            {data.map(product => <Product key = {product._id} product={product}/>)}
+            {items.map(product => <Product key = {product.name} product={product}/>)}
             </div>
             </div>
         </>

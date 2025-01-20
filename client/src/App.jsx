@@ -7,6 +7,7 @@ import Shop from "./components/shop/Shop.jsx"
 import Login from "./components/login/Login.jsx"
 import Register from "./components/register/Register.jsx"
 import Logout from "./components/logout/Logout.jsx"
+import Details from "./components/details/Details.jsx"
 
 
 
@@ -23,6 +24,7 @@ function App() {
         <Route  path="/login" element= {<Login />}/>
         <Route  path="/register" element= {<Register />}/>
         <Route  path="/logout" element= {<Logout />}/>
+        <Route  path="/details/:id" element= {<Details />}/>
       </Routes>
      <Footer />
     </>
